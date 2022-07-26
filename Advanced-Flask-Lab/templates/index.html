@@ -15,7 +15,7 @@
 					<header id="header">
 						<span class="avatar"><img src="{{url_for('static',filename='images/avatar.jpg')}}" alt="" /></span>
 
-            <h1>Description</h1>
+            <h1>{{userbio}}</h1>
             <br>
             <!-- About me button -->
             <a href="#"><button style="color:white;width:40%" >More about me</button></a>
@@ -38,21 +38,53 @@
                 
                 <div>
                       <a href="">
-                        <img src="static/images/thumbs/01.jpg" alt="" />
-                        <h3>Caption... blah blah blah</h3>
+                        <img src="{{imagelink}}" alt="" />
+                        <h3>Caption... a</h3>
                       </a>
                 
                       <a href="">
-                        <img src="url_for('static',filename='images/thumbs/02.jpg')" alt="" />
-                        <h3>Caption... blah blah blah</h3>
+                        <img src="{{url_for('static',filename='images/thumbs/02.jpg')}}" alt="" />
+                        <h3>Caption... aa</h3>
                       </a>
                 </div>    
+                
                 <div>
                   <a href="">
                         <img src="{{url_for('static',filename='images/thumbs/03.jpg')}}" alt="" />
-                        <h3>Caption... blah blah blah</h3>
+                        <h3>Caption... aaa</h3>
                       </a>
                 </div>  
+
+                <div>	
+                    <a href="">
+                        <img src="https://scontent.ftlv1-1.fna.fbcdn.net/v/t39.30808-6/243021542_10158462822407507_4186737446569136175_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=101&ccb=1-7&_nc_sid=ed5ff1&_nc_ohc=nHa7N_8RkP0AX92LvUb&_nc_ht=scontent.ftlv1-1.fna&oh=00_AT8kLSHR6V-bvFjpXVVzHXWXviYhBJgkgHANsGlmTojibg&oe=62E08013" alt="" />
+                        <h3>2021 cohort's Y3 Accelerator!</h3>
+                      </a>
+                </div>  
+
+
+                 <div>
+                  <a href="">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D1BAQFTbpgMk3KTSg/company-background_10000/0/1614595305396?e=1659178800&v=beta&t=OiSIvxsPJiJkArJIzBCKVF0_-yEta9gv1qLVnViU8bo" alt="" />
+                        <h3>MEET graduation!</h3>
+                      </a>
+                </div>  
+
+                <div>
+                  <a href="">
+                        <img src="https://pbs.twimg.com/media/FPvsO6xVkAEcrBm?format=jpg&name=900x900" alt="" />
+                        <h3>#Throwback to one of our favorite #MEETsummer events: #BowlingNight!</h3>
+                      </a>
+                </div>  
+
+
+                <div>
+                  <a href="">
+                        <img src="https://pbs.twimg.com/media/FI_UkcnVIAAUvWN?format=jpg&name=medium" alt="" />
+                        <h3>2020 cohort in their Y1 summer!</h3>
+                      </a>
+                </div>  
+
 
 							</section>
 
@@ -71,5 +103,6 @@
 			<script src="static/js/skel.min.js"></script>
 			<script src="static/js/main.js"></script>
 
+	
 	</body>
 </html>
